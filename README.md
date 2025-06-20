@@ -8,7 +8,7 @@
 
 ## 📸 Demo
 
-👉 [Live Demo on Vercel](https://linktrim.vercel.app)
+👉 [Live Demo on Vercel](https://linktrim-g1ow.vercel.app/)
 
 ---
 
@@ -55,32 +55,24 @@ Follow these instructions to run LinkTrim locally.
 
 1. **Clone the repository:**
 
-```bash
 git clone https://github.com/your-username/linktrim.git
 cd linktrim
-Install dependencies:
 
-bash
-Copy
-Edit
+2. **Install dependencies:**
+
 npm install
 # or
 yarn install
-Create environment variables:
+
+3. **Create environment variables:**
 
 Create a .env.local file in the root and add:
 
-env
-Copy
-Edit
 MONGODB_URI=your-mongodb-connection-uri
 BASE_URL=http://localhost:3000
 💡 Replace BASE_URL with your actual deployed domain when in production.
 
-Run the development server:
+4. **Run the development server:**
 
-bash
-Copy
-Edit
 npm run dev
 Open http://localhost:3000 in your browser to see it live.
